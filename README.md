@@ -66,7 +66,7 @@ Program Sistem Manajemen Tanaman Hidroponik ini awalnya menunjukkan dua pilihan,
 
 <img width="601" height="204" alt="image" src="https://github.com/user-attachments/assets/4536de61-ed60-458e-96be-2835a260c408" />
 
-Di tampilan ini, program juga menunjukkan menu awal dengan pilihan login atau keluar. Waktu memilih login, pengguna memasukkan username user sama password user123. Karena data cocok, sistem langsung nerima login dan menyapa kita sebagai Regular User.
+Di tampilan ini, program juga menunjukkan menu awal dengan pilihan login atau keluar. Waktu memilih login, pengguna memasukkan username user sama password user123. Karena data cocok, sistem langsung menerima login dan menyapa kita sebagai Regular User.
 
 ---
 
@@ -138,7 +138,7 @@ Tampilan ini menunjukkan saat pengguna dengan role Regular User milih menu Logou
 <img width="843" height="456" alt="image" src="https://github.com/user-attachments/assets/64d22d49-3f76-47c2-82e3-7d3811b0d1f5" />
 
 
-Tampilan ini menunjukkan saat pengguna dengan role Administrator (admin) memilih menu Hapus Tanaman. Setelah memilih opsi nomor 4, sistem minta nomor tanaman yang mau dihapus, lalu admin masukin angka 1. Sistem kemudian menampilkan pesan Tanaman berhasil dihapus!, yang berarti data tanaman dengan nomor tersebut sudah berhasil dihapus dari sistem. Berbeda dengan user biasa, admin punya akses penuh untuk melakukan penghapusan data.
+Tampilan ini menunjukkan saat pengguna dengan role Administrator (admin) memilih menu Hapus Tanaman. Setelah memilih opsi nomor 4, sistem minta nomor tanaman yang mau dihapus, lalu admin memasukkan angka 1. Sistem kemudian menampilkan pesan Tanaman berhasil dihapus!, yang berarti data tanaman dengan nomor tersebut sudah berhasil dihapus dari sistem. Berbeda dengan user biasa, admin punya akses penuh untuk melakukan penghapusan data.
 
 ---
 
