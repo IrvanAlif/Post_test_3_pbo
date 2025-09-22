@@ -2,6 +2,7 @@ package com.mycompany.post_test_2.service;
 
 import com.mycompany.post_test_2.model.Tanaman;
 import com.mycompany.post_test_2.model.TanamanCepat;
+import com.mycompany.post_test_2.model.TanamanLambat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -48,8 +49,19 @@ public class TanamanService {
         System.out.print("Catatan: ");
         String ctn = input.nextLine();
         
-        TanamanCepat tanaman = new TanamanCepat(nama, jenis, sistem, tanggal, status, ph, ctn);
-        daftarTanaman.add(tanaman);
+        if (jenis.equals("Sayuran") && (sistem.equals("NFT") || sistem.equals("DWC"))) {
+            // Sayuran + NFT/DWC = Cepat
+            TanamanCepat tanaman = new TanamanCepat(nama, jenis, sistem, tanggal, status, ph, ctn);
+            daftarTanaman.add(tanaman);
+        } else if (jenis.equals("Tanaman Hias") && (sistem.equals("Wick") || sistem.equals("Drip"))) {
+            // Tanaman Hias + Wick/Drip = Lambat
+            TanamanLambat tanaman = new TanamanLambat(nama, jenis, sistem, tanggal, status, ph, ctn);
+            daftarTanaman.add(tanaman);
+        } else {
+            // Default: Tanaman biasa
+            Tanaman tanaman = new Tanaman(nama, jenis, sistem, tanggal, status, ph, ctn);
+            daftarTanaman.add(tanaman);
+        }
         System.out.println("Tanaman berhasil ditambahkan!");
     }
     
