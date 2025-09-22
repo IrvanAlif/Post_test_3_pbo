@@ -9,8 +9,7 @@ Project ini bertema aplikasi manajemen data tanaman dan user sederhana berbasis 
 
 ---
 
-<img width="468" height="474" alt="image" src="https://github.com/user-attachments/assets/4b4e0182-18a2-414c-b151-ffea3b12a3c8" />
-
+<img width="442" height="386" alt="image" src="https://github.com/user-attachments/assets/775313f3-1c93-4013-bbbb-6d66261025a8" />
 
 
 1. com.mycompany.post_test_2.main
@@ -30,6 +29,7 @@ Project ini bertema aplikasi manajemen data tanaman dan user sederhana berbasis 
     - Tanaman.java – merepresentasikan satu tanaman hidroponik (nama, jenis, sistem, tanggal, status, pH, catatan).
     - User.java – merepresentasikan satu pengguna (username, password, role, nama lengkap).
     - TanamanCepat.java – subclass dari Tanaman, tetapi hanya berlaku jika jenisnya sayuran dan sistem hidroponiknya NFT atau DWC.
+    - TanamanLambat.java – subclass dari Tanaman, tetapi hanya berlaku jika jenisnya hias dan sistem hidroponiknya Wick & Drip.
 
 3. com.mycompany.post_test_2.service
 
